@@ -2,3 +2,8 @@ body{
     background-image: url('../img/projectbackground.JPG')
 
 }
+.portrait{
+    bottom: 0;
+    left: 50%;
+    right:50%;
+}
