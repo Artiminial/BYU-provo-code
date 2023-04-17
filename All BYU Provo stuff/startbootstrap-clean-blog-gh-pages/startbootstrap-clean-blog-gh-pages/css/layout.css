@@ -2,8 +2,13 @@ body{
     background-image: url('../img/projectbackground.JPG')
 
 }
-.portrait{
+#portrait{
+    position:absolute;
     bottom: 0;
     left: 50%;
     right:50%;
+}
+ul{
+    font-style: italic;
+    font-size: 12px;
 }
