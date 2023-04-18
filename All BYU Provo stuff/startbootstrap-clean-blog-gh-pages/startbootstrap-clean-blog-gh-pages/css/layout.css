@@ -2,13 +2,43 @@ body{
     background-image: url('../img/projectbackground.JPG')
 
 }
-#portrait{
-    position:absolute;
-    bottom: 0;
-    left: 50%;
-    right:50%;
-}
+
 ul{
     font-style: italic;
     font-size: 12px;
+    color: navy;
+}
+ol{
+    font-style: bold;
+    color: darkslategray;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #ffffff ;
+}
+
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 300px;
+    padding-right: 5px;
+}
+.footer{
+   bottom: 5px;
+   left: 5px;
+   right: 5px;
+   height: 286px;
+   font-size: 12px;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 15px;
+}
+#tableauPlaceholder{
+    position: relative;
+    height: 0;
 }
